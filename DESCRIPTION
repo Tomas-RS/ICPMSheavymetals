@@ -1,0 +1,19 @@
+Package: ICPMSheavymetals
+Type: Package
+Title: ICP-MS Data Analysis for Heavy Metals (Pb, Hg, Cd) 
+Version: 0.1.0
+Author: Tomas Richardson-Sanchez
+Maintainer: Tomas Richardson-Sanchez <tomasrichardsonsanchez@gmail.com>
+Description: Converts raw ICP-MS data output (cps) into parts per billion (ppb)
+    Used for analysis of the heavy metals cadmium (Cd), mercury (Hg), and lead (Pb).
+    Use in conjunction with 'ICPMS R analysis instructions' word document.
+    First call setup_all1 function, then choose function for metal (setup_cadmium2/setup_lead2/setup_mercury2) 
+    and then choose function for analysis (analyse_cadmium3/analyse_cadmium_withdrift3
+    /analyse_lead3/analyse_lead_withdrift3/analyse_mercury3/analyse_mercury_withdrift3).
+License: none
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    tidyverse,
+    basicTrendline
+RoxygenNote: 7.1.1
